@@ -1,6 +1,6 @@
 # Fully-Dynamic Approximate Decision Trees
 
-This personal project implements the algorithms from **"[Fully-Dynamic Approximate Decision Trees With Worst-Case Update Time Guarantees](https://arxiv.org/pdf/2302.03994)"** (Bressan & Sozio, 2023). The core contribution consists in efficiently handling dynamic data, and allowing new training points to be added or removed without fully rebuilding the tree, while ensuring worst-case time complexity for updates.
+This personal project implements the algorithms from **"[Fully-Dynamic Approximate Decision Trees With Worst-Case Update Time Guarantees](https://arxiv.org/abs/2302.03994)"** (Bressan & Sozio, 2023). The core contribution consists in efficiently handling dynamic data, and allowing new training points to be added or removed without fully rebuilding the tree, while ensuring worst-case time complexity for updates.
 
 The tree adapts dynamically to incoming data, maintaining efficient performance even in real-time applications where data is constantly evolving. The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method ensures that the tree incorporates new points, adjusts its structure, and removes old points without degrading performance.
 
