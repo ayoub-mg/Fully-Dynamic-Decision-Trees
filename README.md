@@ -13,7 +13,6 @@ The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method enables the tre
 The repository is organized as follows :
 
 ```
-.
 ├── main.py                # Entry point for running the decision tree algorithm
 ├── Tree.py                # Core decision tree implementation
 ├── PointSet.py            # Handles the set of points (features, labels, types)
