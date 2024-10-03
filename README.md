@@ -1,10 +1,8 @@
 # Fully-Dynamic Approximate Decision Trees
 
-This personal project implements the algorithms presented in **"[Fully-Dynamic Approximate Decision Trees With Worst-Case Update Time Guarantees](https://arxiv.org/pdf/2302.03994)"** (Bressan & Sozio, 2023). The core contribution of this repository is efficiently handling dynamic data, meaning that new training points can be added or removed without the need to fully rebuild the tree. This is achieved while guaranteeing worst-case time complexity for updates.
+This project implements the algorithms from **"[Fully-Dynamic Approximate Decision Trees With Worst-Case Update Time Guarantees](https://arxiv.org/pdf/2302.03994)"** (Bressan & Sozio, 2023). It efficiently handles dynamic data, allowing new training points to be added or removed without fully rebuilding the tree, while ensuring worst-case time complexity for updates.
 
-The implementation focuses on ensuring that the tree can adapt to incoming data by updating its structure dynamically. When new points are added or removed, the tree adjusts itself based on predefined thresholds, while maintaining an efficient performance, even under worst-case scenarios. This makes it particularly useful for real-time applications where the data is not static, and the model needs to evolve quickly with minimal overhead.
-
-The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method enables the tree to efficiently incorporate new points into its training set, adjust the structure of the tree dynamically, and remove old points, all while ensuring that the decision-making process remains optimal and the tree's performance does not degrade over time.
+The tree adapts dynamically to incoming data, maintaining efficient performance even in real-time applications where data is constantly evolving. The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method ensures that the tree incorporates new points, adjusts its structure, and removes old points without degrading performance.
 
 **Author** : MARZOUG Ayoub
 
