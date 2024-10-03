@@ -6,10 +6,12 @@ The implementation focuses on ensuring that the tree can adapt to incoming data 
 
 The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method enables the tree to efficiently incorporate new points into its training set, adjust the structure of the tree dynamically, and remove old points, all while ensuring that the decision-making process remains optimal and the tree's performance does not degrade over time.
 
+**Author** : MARZOUG Ayoub
 
 ## Project Structure
 
 The repository is organized as follows :
+
 .
 ├── main.py                # Entry point for running the decision tree algorithm
 ├── Tree.py                # Core decision tree implementation
