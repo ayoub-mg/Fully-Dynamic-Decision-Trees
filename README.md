@@ -12,6 +12,7 @@ The **Fully-Dynamic Approximate Decision Tree (FuDyADT)** method enables the tre
 
 The repository is organized as follows :
 
+```
 .
 ├── main.py                # Entry point for running the decision tree algorithm
 ├── Tree.py                # Core decision tree implementation
@@ -19,6 +20,7 @@ The repository is organized as follows :
 ├── evaluation.py          # Provides evaluation functions, _e.g._ F1 score, Precision, Recall
 ├── read_write.py          # Functions to read and load CSV data files
 └── data/                  # Directory to place CSV data files (optional)
+```
 
 ## Usage
 
